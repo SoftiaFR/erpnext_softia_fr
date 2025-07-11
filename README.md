@@ -12,7 +12,7 @@
 1. Cloner l’application depuis le dépôt Git :
 
 ```bash
-bench get-app --branch develop erpnext_softia_fr https://git.soa.mg/softia/erpnext/Erpnext_Softia_Fr.git
+bench get-app erpnext_softia_fr https://git.softia.fr/erpnext/erpnext/erpnext_softia_fr.git
 
 ```
 2. Installer l'application sur le site ERPNext : 
@@ -37,4 +37,3 @@ bench start
 3. Remplir le champ SIRET visible dans le formulaire
 
 4. Sauvegarder la société
->>>>>>> 469d97d (Renommage du custom app)
