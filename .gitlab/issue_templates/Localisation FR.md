@@ -19,4 +19,4 @@ _Indique le fonctionnement attendu._
 _Ajoute des captures si nécessaire._
 
 
-/label ~Localisation FR
+/label ~"Localisation FR"

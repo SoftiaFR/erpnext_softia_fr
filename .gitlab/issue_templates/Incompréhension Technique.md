@@ -28,4 +28,4 @@ _Ajoute ici des captures d’écran, logs console ou tout élément utile pour r
 _Autres détails utiles (navigateur, device, configuration spécifique, etc.)._
 
 
-/label ~Incomp. Tech.
+/label ~"Incomp. Tech."

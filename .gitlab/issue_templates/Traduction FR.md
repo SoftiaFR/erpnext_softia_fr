@@ -23,4 +23,4 @@ _Autres remarques éventuelles._
 
 
 
-/label ~Traduction FR
+/label ~"Traduction FR"

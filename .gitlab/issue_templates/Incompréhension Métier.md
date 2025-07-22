@@ -23,4 +23,4 @@ _Autres détails utiles ou questions annexes._
 
 
 
-/label ~Incomp. Fonc.
+/label ~"Incomp. Fonc."
