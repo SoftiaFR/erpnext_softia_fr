@@ -1,7 +1,7 @@
 [project]
 name = "erpnext_softia_fr"
 authors = [
-    { name = "Softia", email = ""}
+    { name = "Softia" }
 ]
 description = "Integration de Siret"
 requires-python = ">=3.10"
