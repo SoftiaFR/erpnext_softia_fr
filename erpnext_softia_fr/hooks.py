@@ -6,7 +6,8 @@ app_email = ""
 app_license = "mit"
 
 doctype_js = {
-    "Company": "public/js/siret_client.js"
+    "Company": "public/js/siret_client.js",
+    "Opportunity": "public/js/opportunity.js"
 }
 
 after_install = "erpnext_softia_fr.setup.install.after_install"
