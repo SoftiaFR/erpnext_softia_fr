@@ -12,7 +12,7 @@
 1. Cloner l’application depuis le dépôt Git :
 
 ```bash
-bench get-app erpnext_softia_fr https://git.softia.fr/erpnext/erpnext/erpnext_softia_fr.git
+bench get-app erpnext_softia_fr https://github.com/SoftiaFR/erpnext_softia_fr.git
 
 ```
 2. Installer l'application sur le site ERPNext : 
