@@ -12,6 +12,13 @@ doctype_js = {
 
 after_install = "erpnext_softia_fr.setup.install.after_install"
 
+#fixtures = [
+#    {"dt": "Role", "filters": [["name", "in", ["Gestionnaire Global"]]]},
+#    {"dt": "Custom DocPerm", "filters": [["role", "=", "Gestionnaire Global"]]},
+#    {"dt": "Role Profile", "filters": [["name", "=", "Profil Gestionnaire Global"]]},
+#]
+
+
 # Apps
 # ------------------
 
@@ -249,3 +256,4 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+setup_wizard_complete = "erpnext_softia_fr.setup.default_data.create_data"

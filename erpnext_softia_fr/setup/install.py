@@ -1,6 +1,5 @@
 import frappe
 from frappe import _
-from frappe.model.document import Document
 
 def after_install():
     create_siret_field()
@@ -18,9 +17,6 @@ def after_install():
         print(_("Role Profile 'Profil Gestionnaire Global' already exists, skipping."))
     except Exception as e:
         print(_("Error creating role profile: {0}").format(e))
-
-    create_login_gestionnaire_doctype()
-    create_login_gestionnaire_webform()
 
     frappe.db.commit()
 
@@ -285,119 +281,6 @@ def grant_all_module_reports_access(role="Gestionnaire Global"):
     frappe.db.commit()
     print(_("Done: {0} report(s) updated, {1} skipped due to errors.").format(total_updated, total_skipped))
 
-def create_login_gestionnaire_doctype():
-    if frappe.db.exists("DocType", "Login Gestionnaire"):
-        print("Doctype 'Login Gestionnaire' already exists, skipping.")
-        return
-    doc = frappe.new_doc("DocType")
-    doc.name = "Login Gestionnaire"
-    doc.module = "erpnext_softia_fr"
-    doc.custom = 0
-    doc.autoname = "field:email"
-    doc.is_submittable = 0
-    doc.istable = 0
-    doc.has_web_view = 0
-    doc.allow_guest_to_view = 0
-    
-    doc.append("permissions", {
-        "role": "Guest",
-        "read": 1,
-        "write": 1,
-        "create": 1,
-        "delete": 0,
-        "submit": 0,
-        "cancel": 0,
-        "amend": 0
-    })
-   
-    doc.append("permissions", {
-        "role": "System Manager",
-        "read": 1,
-        "write": 1,
-        "create": 1,
-        "delete": 1,
-        "submit": 0,
-        "cancel": 0,
-        "amend": 0
-    })
-    
-    fields = [
-        {
-            "label": "Nom complet",
-            "fieldname": "full_name",
-            "fieldtype": "Data",
-            "reqd": 1,
-            "in_list_view": 1
-        },
-        {
-            "label": "Email",
-            "fieldname": "email",
-            "fieldtype": "Data",
-            "reqd": 1,
-            "unique": 1,
-            "in_list_view": 1
-        },
-        {
-            "label": "Date de création",
-            "fieldname": "creation_date",
-            "fieldtype": "Datetime",
-            "read_only": 1,
-            "in_list_view": 1
-        }
-    ]
-   
-    for field in fields:
-        doc.append("fields", field)
-    doc.insert()
-    frappe.db.commit()
-    print("Doctype 'Login Gestionnaire' created without password field.")
 
-def create_login_gestionnaire_webform():
-    if frappe.db.exists("Web Form", "Login Gestionnaire"):
-        print("Web Form 'Login Gestionnaire' already exists, skipping.")
-        return
-    webform = frappe.new_doc("Web Form")
-    webform.name = "login_gestionnaire"
-    webform.title = "Inscrivez-vous"
-    webform.route = "signup-gestionnaire"
-    webform.doc_type = "Login Gestionnaire"
-    webform.allow_guest = 1
-    webform.is_standard = 0
-    webform.module = "erpnext_softia_fr"
-   
-    webform.published = 1  
-   
-    webform.success_title = "Compte créé avec succès"
-    webform.success_message = """
-        Votre compte a été créé avec succès ! 
-        Vous pouvez maintenant vous connecter.
-    """
-    webform.success_url = ""
-    webform.web_form_fields = []
 
-    fields_data = [
-        {
-            "fieldname": "full_name",
-            "label": "Nom complet",
-            "fieldtype": "Data",
-            "reqd": 1,
-            "description": "Entrez votre nom complet"
-        },
-        {
-            "fieldname": "email",
-            "label": "Adresse email",
-            "fieldtype": "Data",
-            "reqd": 1,
-            "unique": 1,
-            "description": "Cette adresse sera utilisée pour vous connecter et recevoir vos identifiants"
-        }
-    ]
-    
-    for f in fields_data:
-        child = frappe.new_doc("Web Form Field")
-        for k, v in f.items():
-            setattr(child, k, v)
-        webform.append("web_form_fields", child)
-    webform.insert()
-    frappe.db.commit()
-    print("Web Form 'Login Gestionnaire' created without password field.")
+

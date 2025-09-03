@@ -1,5 +1,6 @@
 import frappe
 import requests
+from frappe import _
 from requests.exceptions import RequestException
 
 @frappe.whitelist()
@@ -31,4 +32,4 @@ def verifier_siret(siret):
         }
     except RequestException as e:
         frappe.log_error("API Siren Error", f"Request failed: {str(e)}\nURL: {api_url}")
-        return {"status": "error", "message": "Ce numéro SIRET est introuvable dans la base INSEE."}
+        return {"status": "error", "message": _("This SIRET number was not found in the INSEE database.")}

@@ -1,0 +1,161 @@
+# Translations template for erpnext_softia_fr.
+# Copyright (C) 2025 Softia ingénierie
+# This file is distributed under the same license as the erpnext_softia_fr project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: erpnext_softia_fr VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-07-14 11:21+0227\n"
+"PO-Revision-Date: 2025-07-14 11:21+0227\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: erpnext_softia_fr/public/js/siret_client.js:20
+msgid "Checking SIRET..."
+msgstr "Vérification du SIRET..."
+
+#: erpnext_softia_fr/setup/install.py:114
+msgid "Custom field '{0}' already exists, skipping."
+msgstr "Le champ personnalisé '{0}' existe déjà, on passe."
+
+#: erpnext_softia_fr/setup/install.py:136
+msgid "Custom field '{0}' inserted."
+msgstr "Champ personnalisé '{0}' ajouté."
+
+#: erpnext_softia_fr/setup/install.py:138
+msgid "Duplicate detected for '{0}', skipping insertion."
+msgstr "Doublon détecté pour '{0}', insertion ignorée."
+
+#: erpnext_softia_fr/setup/install.py:16
+msgid "Error creating role profile: {0}"
+msgstr "Erreur lors de la création du profil de rôle : {0}"
+
+#: erpnext_softia_fr/setup/install.py:85
+msgid "Error modifying workspace {0}: {1}"
+msgstr "Erreur lors de la modification de l'espace de travail {0} : {1}"
+
+#: erpnext_softia_fr/setup/install.py:36
+msgid "Error processing workspace {0}: {1}"
+msgstr "Erreur lors du traitement de l'espace de travail {0} : {1}"
+
+#: erpnext_softia_fr/setup/install.py:57
+msgid "Error with workspace {0}: {1}"
+msgstr "Erreur avec l'espace de travail {0} : {1}"
+
+#: erpnext_softia_fr/setup/install.py:203
+msgid "Permission added for {0}"
+msgstr "Permission ajoutée pour {0}"
+
+#: erpnext_softia_fr/setup/install.py:205
+msgid "Permission already exists for {0}"
+msgstr "La permission existe déjà pour {0}"
+
+#: erpnext_softia_fr/setup/install.py:14
+msgid "Role Profile 'Profil Gestionnaire Global' already exists, skipping."
+msgstr "Le profil de rôle 'Profil Gestionnaire Global' existe déjà, on passe."
+
+#: erpnext_softia_fr/setup/install.py:209
+msgid "Role Profile '{0}' already exists, skipping creation."
+msgstr "Le profil de rôle '{0}' existe déjà, création ignorée."
+
+#: erpnext_softia_fr/setup/install.py:217
+msgid "Role Profile '{0}' created successfully."
+msgstr "Profil de rôle '{0}' créé avec succès."
+
+#: erpnext_softia_fr/setup/install.py:153
+msgid "Role {0} created."
+msgstr "Rôle {0} créé."
+
+#: erpnext_softia_fr/public/js/siret_client.js:28
+msgid "SIRET recognized"
+msgstr "SIRET reconnu"
+
+#: erpnext_softia_fr/public/js/siret_client.js:42
+msgid "The SIRET number is invalid or has not been verified."
+msgstr "Le numéro SIRET n'est pas valide ou n'a pas été vérifié."
+
+#: erpnext_softia_fr/public/js/siret_client.js:11
+msgid "The SIRET number must be exactly 14 digits."
+msgstr "Le numéro SIRET doit contenir exactement 14 chiffres."
+
+#: erpnext_softia_fr/setup/install.py:30
+msgid "Workspace '{0}' hidden via is_hidden"
+msgstr "Espace de travail '{0}' masqué via is_hidden"
+
+#: erpnext_softia_fr/setup/install.py:34
+msgid "Workspace '{0}' is visible"
+msgstr "Espace de travail '{0}' est visible"
+
+#: erpnext_softia_fr/setup/install.py:52
+msgid "Workspace '{0}' restricted from users"
+msgstr "Espace de travail '{0}' restreint pour les utilisateurs"
+
+#: erpnext_softia_fr/setup/install.py:82
+msgid "Workspace '{0}' restricted to role {1}"
+msgstr "Espace de travail '{0}' restreint au rôle {1}"
+
+#: erpnext_softia_fr/setup/install.py:54
+msgid "Workspace '{0}' retained"
+msgstr "Espace de travail '{0}' conservé"
+
+#: erpnext_softia_fr/api/siret.py:35
+msgid "This SIRET number was not found in the INSEE database."
+msgstr "Ce numéro SIRET n’a pas été trouvé dans la base de données de l’INSEE."
+
+#: erpnext_softia_fr/setup/install.py:275
+msgid "Role already has access to report: {0}"
+msgstr "Le rôle a déjà accès au rapport : {0}"
+
+#: erpnext_softia_fr/setup/install.py:259
+msgid "Processing {0} report(s) from module '{1}'"
+msgstr "Traitement du (des) rapport(s) {0} du module '{1}'"
+
+#: erpnext_softia_fr/setup/install.py:285
+msgid "SEPA Direct Debit"
+msgstr "Prélèvement SEPA"
+
+#: erpnext_softia_fr/setup/install.py:294
+msgid "Record '{0}' already exists in '{1}', skipping."
+msgstr "L’enregistrement '{0}' existe déjà dans '{1}', en sautant."
+
+#: erpnext_softia_fr/setup/install.py:290
+msgid "Record '{0}' created in '{1}'"
+msgstr "Enregistrement '{0}' créé dans '{1}'"
+
+#: erpnext_softia_fr/setup/install.py:266
+msgid "Report '{0}' refers to missing Letter Head: '{1}', clearing..."
+msgstr "Le rapport '{0}' fait référence à l’en-tête de lettre manquant : '{1}', éliminant..."
+
+#: erpnext_softia_fr/setup/install.py:249
+msgid "Error while adding permission to {0}: {1}"
+msgstr "Erreur lors de l’ajout de la permission à {0} : {1}"
+
+#: erpnext_softia_fr/setup/install.py:292
+msgid "Error creating record '{0}' in '{1}': {2}"
+msgstr "Erreur de création d’enregistrement '{0}' dans '{1}' : {2}"
+
+#: erpnext_softia_fr/setup/install.py:282
+msgid "Done: {0} report(s) updated, {1} skipped due to errors."
+msgstr "Fait : {0} rapport(s) mis à jour, {1} sauté en raison d’erreurs."
+
+#: erpnext_softia_fr/setup/install.py:278
+msgid "Could not process report '{0}': {1}"
+msgstr "Impossible de traiter le rapport '{0}' : {1}"
+
+#: erpnext_softia_fr/setup/install.py:272
+msgid "Access granted to report: {0}"
+msgstr "Accès accordé au rapport : {0}"
+
+#: erpnext_softia_fr/setup/install.py:
+msgid "All Supplier Groups"
+msgstr "Tous les groupes de fournisseurs"
+
+#: erpnext_softia_fr/setup/install.py:
+msgid "Consumables"
+msgstr "Consommables"

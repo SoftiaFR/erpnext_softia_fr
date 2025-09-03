@@ -8,7 +8,7 @@ frappe.ui.form.on('Company', {
         if (!/^\d{14}$/.test(siret)) {
             frm.set_value("siret_valide", 0);
             frm.fields_dict["siret"].$wrapper.append(
-                `<div class="text-danger small mt-1 siret-message">⚠️ Le numéro SIRET doit contenir exactement 14 chiffres.</div>`
+                `<div class="text-danger small mt-1 siret-message">⚠️ ${__("The SIRET number must be exactly 14 digits.")}</div>`
             );
             return;
         }
@@ -17,7 +17,7 @@ frappe.ui.form.on('Company', {
             method: "erpnext_softia_fr.api.siret.verifier_siret",
             args: { siret },
             freeze: true,
-            freeze_message: __("Vérification SIRET..."),
+            freeze_message: __("Checking SIRET..."),
             callback: function(r) {
                 if (r.message.status === "success") {
                     const data = r.message.data;
@@ -25,12 +25,12 @@ frappe.ui.form.on('Company', {
                     frm.set_value("country", "France");
                     frm.set_value("siret_valide", 1); 
                     frm.fields_dict["siret"].$wrapper.append(
-                        `<div class="text-success small mt-1 siret-message">✅ SIRET reconnu : ${data.denomination}</div>`
+                        `<div class="text-success small mt-1 siret-message">✅ ${__("SIRET recognized")}: ${data.denomination}</div>`
                     );
                 } else {
                     frm.set_value("siret_valide", 0); 
                     frm.fields_dict["siret"].$wrapper.append(
-                        `<div class="text-danger small mt-1 siret-message">❌ ${r.message.message}</div>`
+                        `<div class="text-danger small mt-1 siret-message">❌ ${__(r.message.message)}</div>`
                     );
                 }
             }
@@ -39,7 +39,7 @@ frappe.ui.form.on('Company', {
 
     validate: function(frm) {
         if (!frm.doc.siret_valide) {
-            frappe.throw(__("Le numéro SIRET n'est pas valide ou n'a pas été vérifié."));
+            frappe.throw(__("The SIRET number is invalid or has not been verified."));
         }
     }
 });

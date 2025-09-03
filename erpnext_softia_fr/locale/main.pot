@@ -1,0 +1,166 @@
+# Translations template for erpnext_softia_fr.
+# Copyright (C) 2025 Softia ingénierie
+# This file is distributed under the same license as the erpnext_softia_fr project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: erpnext_softia_fr VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-08-26 15:22+0009\n"
+"PO-Revision-Date: 2025-08-26 15:22+0009\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.1\n"
+
+#: erpnext_softia_fr/setup/install.py:272
+msgid "Access granted to report: {0}"
+msgstr ""
+
+#: erpnext_softia_fr/public/js/siret_client.js:20
+msgid "Checking SIRET..."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:278
+msgid "Could not process report '{0}': {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:139
+msgid "Custom field '{0}' already exists, skipping."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:161
+msgid "Custom field '{0}' inserted."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:282
+msgid "Done: {0} report(s) updated, {1} skipped due to errors."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:163
+msgid "Duplicate detected for '{0}', skipping insertion."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:292
+msgid "Error creating record '{0}' in '{1}': {2}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:19
+msgid "Error creating role profile: {0}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:110
+msgid "Error modifying workspace {0}: {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:60
+msgid "Error processing workspace {0}: {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:249
+msgid "Error while adding permission to {0}: {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:81
+msgid "Error with workspace {0}: {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:247
+msgid "Permission added for {0}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:223
+msgid "Permission already exists for {0}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:259
+msgid "Processing {0} report(s) from module '{1}'"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:285
+msgid "Prélèvement SEPA"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:294
+msgid "Record '{0}' already exists in '{1}', skipping."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:290
+msgid "Record '{0}' created in '{1}'"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:266
+msgid "Report '{0}' refers to missing Letter Head: '{1}', clearing..."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:17
+msgid "Role Profile 'Profil Gestionnaire Global' already exists, skipping."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:183
+msgid "Role Profile '{0}' already exists, skipping creation."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:191
+msgid "Role Profile '{0}' created successfully."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:275
+msgid "Role already has access to report: {0}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:178
+msgid "Role {0} created."
+msgstr ""
+
+#: erpnext_softia_fr/public/js/siret_client.js:28
+msgid "SIRET recognized"
+msgstr ""
+
+#: erpnext_softia_fr/public/js/siret_client.js:42
+msgid "The SIRET number is invalid or has not been verified."
+msgstr ""
+
+#: erpnext_softia_fr/public/js/siret_client.js:11
+msgid "The SIRET number must be exactly 14 digits."
+msgstr ""
+
+#: erpnext_softia_fr/api/siret.py:35
+msgid "This SIRET number was not found in the INSEE database."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:57
+msgid "Workspace '{0}' hidden via is_hidden"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:53
+msgid "Workspace '{0}' is visible"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:78
+msgid "Workspace '{0}' restricted from users"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:107
+msgid "Workspace '{0}' restricted to role {1}"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:74
+msgid "Workspace '{0}' retained"
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:32
+msgid "✅ Access to the 'General Ledger' report has been granted to role: {0}."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:36
+msgid "❌ Report 'General Ledger' not found."
+msgstr ""
+
+#: erpnext_softia_fr/setup/install.py:34
+msgid "🔸 The role '{0}' already has access to the 'General Ledger' report."
+msgstr ""
+
