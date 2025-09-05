@@ -8676,6 +8676,15 @@ msgid "Balance must be"
 msgstr "Le solde doit être"
 
 #: erpnext/accounts/doctype/account/account.json
+msgid "Debit"
+msgstr "Débiteur"
+
+#: erpnext/accounts/doctype/account/account.json
+msgid "Credit"
+msgstr "Créditeur"
+
+
+#: erpnext/accounts/doctype/account/account.json
 #: erpnext/accounts/doctype/bank/bank.json
 #: erpnext/accounts/doctype/bank_account/bank_account.json
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
@@ -21343,7 +21352,9 @@ msgstr "Valeur attendue après la durée d'utilité"
 #. Option for the 'Type' (Select) field in DocType 'Process Deferred
 #. Accounting'
 msgid "Expense"
-msgstr "Dépense"
+msgstr "Charges"
+
+
 
 #: erpnext/controllers/stock_controller.py:760
 msgid "Expense / Difference account ({0}) must be a 'Profit or Loss' account"

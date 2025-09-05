@@ -7,7 +7,8 @@ app_license = "mit"
 
 doctype_js = {
     "Company": "public/js/siret_client.js",
-    "Opportunity": "public/js/opportunity.js"
+    "Opportunity": "public/js/opportunity.js",
+    "Account": "public/js/account.js"
 }
 
 after_install = "erpnext_softia_fr.setup.install.after_install"
@@ -257,3 +258,4 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 # }
 
 setup_wizard_complete = "erpnext_softia_fr.setup.default_data.create_data"
+after_migrate = ["erpnext_softia_fr.api.account_custom_fields.execute"]

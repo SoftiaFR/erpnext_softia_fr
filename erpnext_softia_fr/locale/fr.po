@@ -159,3 +159,28 @@ msgstr "Tous les groupes de fournisseurs"
 #: erpnext_softia_fr/setup/install.py:
 msgid "Consumables"
 msgstr "Consommables"
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "Accounting Class"
+msgstr "Classe comptable"
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must contain only digits: {0}"
+msgstr "Le numéro de compte doit contenir uniquement des chiffres : {0}"
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must contain exactly 8 digits : {0}"
+msgstr "Le numéro de compte doit comporter exactement 8 chiffres : {0}"
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must contain exactly 8 digits : {0}."
+msgstr "Le numéro de compte doit comporter exactement 8 chiffres : {0}."
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must begin with the parent account ({0})."
+msgstr "Le numéro de compte doit commencer par le compte parent ({0})."
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number cannot be the same as the parent account ({0})."
+msgstr "Le numéro de compte ne peut pas être identique au compte parent ({0})."
+
