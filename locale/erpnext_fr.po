@@ -58,7 +58,7 @@ msgstr " Nom"
 
 #: erpnext/accounts/report/item_wise_sales_register/item_wise_sales_register.py:663
 msgid " Rate"
-msgstr "Taux"
+msgstr "Prix"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:122
 msgid " Raw Material"
@@ -2334,7 +2334,7 @@ msgstr "Un Lead nécessite soit le nom d'une personne soit le nom d'une organisa
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:83
 msgid "A Packing Slip can only be created for Draft Delivery Note."
 msgstr ""
-"Un bordereau d'expédition ne peut être créé que pour un bon de livraison en "
+"Un bordereau de livraison ne peut être créé que pour un bon de livraison en "
 "brouillon."
 
 #: erpnext/stock/doctype/price_list/price_list.json
@@ -2384,7 +2384,7 @@ msgstr "Un Document de Suppression de Transaction : {0} est déclenché pour {0}
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
 #. Description of a DocType
 msgid "A condition for a Shipping Rule"
-msgstr "Une condition pour une règle d'expédition"
+msgstr "Une condition pour une règle de livraison"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 #. Description of the 'Send To Primary Contact' (Check) field in DocType
@@ -2768,7 +2768,7 @@ msgstr "Détails du compte"
 #. Label of a Link field in DocType 'Purchase Taxes and Charges'
 #. Label of a Link field in DocType 'Sales Taxes and Charges'
 msgid "Account Head"
-msgstr "Intitulé du compte"
+msgstr "Compte principal"
 
 #: erpnext/selling/doctype/customer/customer.json
 #. Label of a Link field in DocType 'Customer'
@@ -2965,7 +2965,7 @@ msgstr "Le compte {0} est ajouté dans la société filiale {1}"
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:406
 msgid "Account {0} is frozen"
-msgstr "Le compte {0} est gelé"
+msgstr "Le compte {0} est bloqué"
 
 #: erpnext/controllers/accounts_controller.py:1385
 msgid "Account {0} is invalid. Account Currency must be {1}"
@@ -5784,7 +5784,7 @@ msgid ""
 "Allows users to submit Purchase Orders with zero quantity. Useful when "
 "rates are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Permet aux utilisateurs de soumettre des bons de commande avec une quantité "
+"Permet aux utilisateurs de valider des bons de commande avec une quantité "
 "nulle. Utile lorsque les taux sont fixes mais que les quantités ne le sont "
 "pas. Par exemple, les contrats de taux."
 
@@ -5795,7 +5795,7 @@ msgid ""
 "Allows users to submit Quotations with zero quantity. Useful when rates are "
 "fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Permet aux utilisateurs de soumettre des devis avec une quantité nulle. "
+"Permet aux utilisateurs de valider des devis avec une quantité nulle. "
 "Utile lorsque les taux sont fixes mais que les quantités ne le sont pas. "
 "Par exemple, les contrats de taux."
 
@@ -5806,7 +5806,7 @@ msgid ""
 "Allows users to submit Request for Quotations with zero quantity. Useful "
 "when rates are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Permet aux utilisateurs de soumettre des demandes de devis avec une "
+"Permet aux utilisateurs de valider des demandes de devis avec une "
 "quantité nulle. Utile lorsque les taux sont fixes mais que les quantités ne "
 "le sont pas. Par exemple, les contrats de taux."
 
@@ -5817,7 +5817,7 @@ msgid ""
 "Allows users to submit Sales Orders with zero quantity. Useful when rates "
 "are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Permet aux utilisateurs de soumettre des commandes clients avec une "
+"Permet aux utilisateurs de valider des commandes clients avec une "
 "quantité nulle. Utile lorsque les taux sont fixes mais que les quantités ne "
 "le sont pas. Par exemple, les contrats de taux."
 
@@ -5828,7 +5828,7 @@ msgid ""
 "Allows users to submit Supplier Quotations with zero quantity. Useful when "
 "rates are fixed but the quantities are not. Eg. Rate Contracts."
 msgstr ""
-"Permet aux utilisateurs de soumettre des devis fournisseurs avec une "
+"Permet aux utilisateurs de valider des devis fournisseurs avec une "
 "quantité nulle. Utile lorsque les taux sont fixes mais que les quantités ne "
 "le sont pas. Par exemple, les contrats tarifaires."
 
@@ -7460,7 +7460,7 @@ msgstr "Asset {0} n’est pas configuré pour calculer l’amortissement."
 
 #: erpnext/assets/doctype/asset_depreciation_schedule/asset_depreciation_schedule.py:102
 msgid "Asset {0} is not submitted. Please submit the asset before proceeding."
-msgstr "Asset {0} n’est pas soumis. Veuillez soumettre l’actif avant de continuer."
+msgstr "Asset {0} n’est pas soumis. Veuillez valider l’actif avant de continuer."
 
 #: erpnext/assets/doctype/asset/depreciation.py:369
 msgid "Asset {0} must be submitted"
@@ -10844,7 +10844,7 @@ msgstr "Impossible de Libérer l'Employé"
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:72
 msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
 msgstr ""
-"Impossible de resoumettre les écritures de grand livre pour les pièces dans "
+"Impossible de revalider les écritures de grand livre pour les pièces dans "
 "l'année fiscale clôturée."
 
 #: erpnext/stock/doctype/stock_reservation_entry/stock_reservation_entry.py:96
@@ -11707,7 +11707,7 @@ msgstr "Caisse"
 
 #: erpnext/selling/page/point_of_sale/pos_item_cart.js:252
 msgid "Checkout Order / Submit Order / New Order"
-msgstr "Commander / Soumettre Commande / Nouvelle Commande"
+msgstr "Commander / Valider la Commande / Nouvelle Commande"
 #: erpnext/setup/setup_wizard/data/industry_type.txt:12
 msgid "Chemical"
 msgstr "Chimique"
@@ -12078,7 +12078,7 @@ msgstr "Clôture (Ouverture + Total)"
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.json
 #. Label of a Link field in DocType 'Period Closing Voucher'
 msgid "Closing Account Head"
-msgstr "Intitulé du compte de clôture"
+msgstr "Compte principal de clôture"
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:122
 msgid "Closing Account {0} must be of type Liability / Equity"
@@ -12866,7 +12866,7 @@ msgstr "Entreprise Non Liée"
 #: erpnext/subcontracting/doctype/subcontracting_order/subcontracting_order.json
 #. Label of a Link field in DocType 'Subcontracting Order'
 msgid "Company Shipping Address"
-msgstr "Adresse d'Expédition de l'Entreprise"
+msgstr "Adresse de livraison de l'Entreprise"
 
 #: erpnext/portal/doctype/homepage/homepage.json
 #. Description of the 'Tag Line' (Data) field in DocType 'Homepage'
@@ -14371,7 +14371,7 @@ msgid ""
 "Note' and submit again"
 msgstr ""
 "Impossible de créer automatiquement la note de crédit, veuillez décocher "
-"'Émettre une note de crédit' et soumettre à nouveau"
+"'Émettre une note de crédit' et valider à nouveau"
 
 #: erpnext/erpnext_integrations/doctype/plaid_settings/plaid_settings.py:353
 msgid "Could not detect the Company for updating Bank Accounts"
@@ -19045,12 +19045,12 @@ msgstr "Expédition"
 #. Label of a Small Text field in DocType 'Delivery Note'
 #. Label of a Text Editor field in DocType 'Purchase Receipt'
 msgid "Dispatch Address"
-msgstr "Adresse d'expédition"
+msgstr "Adresse de livraison"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #. Label of a Text Editor field in DocType 'Purchase Order'
 msgid "Dispatch Address Details"
-msgstr "Détails de l'adresse d'expédition"
+msgstr "Détails de l'adresse de livraison"
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #: erpnext/selling/doctype/sales_order/sales_order.json
@@ -19059,17 +19059,17 @@ msgstr "Détails de l'adresse d'expédition"
 #. Label of a Link field in DocType 'Sales Order'
 #. Label of a Link field in DocType 'Delivery Note'
 msgid "Dispatch Address Name"
-msgstr "Nom de l'adresse d'expédition"
+msgstr "Nom de l'adresse de livraison"
 
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #. Label of a Link field in DocType 'Purchase Receipt'
 msgid "Dispatch Address Template"
-msgstr "Modèle d'adresse d'expédition"
+msgstr "Modèle d'adresse de livraison"
 
 #: erpnext/stock/doctype/delivery_stop/delivery_stop.json
 #. Label of a Section Break field in DocType 'Delivery Stop'
 msgid "Dispatch Information"
-msgstr "Informations d'Expédition"
+msgstr "Informations de livraison"
 
 #: erpnext/patches/v11_0/add_default_dispatch_notification_template.py:11
 #: erpnext/patches/v11_0/add_default_dispatch_notification_template.py:20
@@ -19077,22 +19077,22 @@ msgstr "Informations d'Expédition"
 #: erpnext/setup/setup_wizard/operations/defaults_setup.py:58
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:307
 msgid "Dispatch Notification"
-msgstr "Notification d'expédition"
+msgstr "Notification de livraison"
 
 #: erpnext/stock/doctype/delivery_settings/delivery_settings.json
 #. Label of a Link field in DocType 'Delivery Settings'
 msgid "Dispatch Notification Attachment"
-msgstr "Pièce Jointe de Notification d'Expédition"
+msgstr "Pièce Jointe de Notification de livraison"
 
 #: erpnext/stock/doctype/delivery_settings/delivery_settings.json
 #. Label of a Link field in DocType 'Delivery Settings'
 msgid "Dispatch Notification Template"
-msgstr "Modèle de Notification d'Expédition"
+msgstr "Modèle de Notification de livraison"
 
 #: erpnext/stock/doctype/delivery_settings/delivery_settings.json
 #. Label of a Section Break field in DocType 'Delivery Settings'
 msgid "Dispatch Settings"
-msgstr "Paramètres d'Expédition"
+msgstr "Paramètres de livraison"
 
 #: erpnext/assets/doctype/asset/asset.json
 #. Label of a Date field in DocType 'Asset'
@@ -19250,10 +19250,10 @@ msgstr "Voulez-vous notifier tous les clients par email ?"
 
 #: erpnext/manufacturing/doctype/production_plan/production_plan.js:241
 msgid "Do you want to submit the material request"
-msgstr "Voulez-vous soumettre la demande de matériel"
+msgstr "Voulez-vous valider la demande de matériel"
 #: erpnext/manufacturing/doctype/job_card/job_card.js:94
 msgid "Do you want to submit the stock entry?"
-msgstr "Voulez-vous soumettre l’entrée de stock ?"
+msgstr "Voulez-vous valider l’entrée de stock ?"
 
 #: erpnext/accounts/doctype/transaction_deletion_record_details/transaction_deletion_record_details.json
 #. Label of a Data field in DocType 'Transaction Deletion Record Details'
@@ -20772,7 +20772,7 @@ msgstr "Entrer le nom de la campagne si la source de l'enquête est une campagne
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
 msgid "Enter the Bank Guarantee Number before submittting."
-msgstr "Saisir le numéro de garantie bancaire avant de soumettre."
+msgstr "Saisir le numéro de garantie bancaire avant de valider."
 
 #: erpnext/manufacturing/doctype/routing/routing.js:83
 msgid ""
@@ -20787,11 +20787,11 @@ msgstr ""
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
 msgid "Enter the name of the Beneficiary before submittting."
-msgstr "Saisir le nom du bénéficiaire avant de soumettre."
+msgstr "Saisir le nom du bénéficiaire avant de valider."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:55
 msgid "Enter the name of the bank or lending institution before submittting."
-msgstr "Saisir le nom de la banque ou de l'institution de crédit avant de soumettre."
+msgstr "Saisir le nom de la banque ou de l'institution de crédit avant de valider."
 
 #: erpnext/stock/doctype/item/item.js:967
 msgid "Enter the opening stock units."
@@ -22738,7 +22738,7 @@ msgstr "Geler les Stocks Plus Anciens Que (Jours)"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:58
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:83
 msgid "Freight and Forwarding Charges"
-msgstr "Frais de transport et d'expédition"
+msgstr "Frais de transport et de livraison"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts.json
 #: erpnext/setup/doctype/company/company.json
@@ -27631,7 +27631,7 @@ msgstr "Est un article gratuit"
 #. Label of a Check field in DocType 'Supplier'
 #. Label of a Check field in DocType 'Customer'
 msgid "Is Frozen"
-msgstr "Est gelé"
+msgstr "Est bloqué"
 
 #: erpnext/assets/doctype/asset/asset.json
 #. Label of a Check field in DocType 'Asset'
@@ -27804,19 +27804,19 @@ msgstr "Est un entrepôt de rejet"
 #. Label of a Check field in DocType 'Stock Entry'
 #. Label of a Check field in DocType 'Subcontracting Receipt'
 msgid "Is Return"
-msgstr "Est un Retour"
+msgstr "Est un avoir"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
 #. Label of a Check field in DocType 'POS Invoice'
 #. Label of a Check field in DocType 'Sales Invoice'
 msgid "Is Return (Credit Note)"
-msgstr "Est un retour (note de crédit)"
+msgstr "Est un avoir (note de crédit)"
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #. Label of a Check field in DocType 'Purchase Invoice'
 msgid "Is Return (Debit Note)"
-msgstr "Est un retour (note de débit)"
+msgstr "Est un avoir (note de débit)"
 
 #: erpnext/selling/doctype/selling_settings/selling_settings.json
 #. Label of a Select field in DocType 'Selling Settings'
@@ -28001,8 +28001,7 @@ msgstr "Type de Problème"
 #. DocType 'Sales Invoice'
 msgid "Issue a debit note with 0 qty against an existing Sales Invoice"
 msgstr ""
-"Émettre une note de débit avec quantité 0 contre une Facture de Vente "
-"existante"
+"Créer une note de Débit avec une quantité 0 pour la facture"
 
 #: erpnext/accounts/doctype/share_balance/share_balance.json
 #: erpnext/stock/doctype/material_request/material_request.json
@@ -31223,7 +31222,7 @@ msgstr "Statut de maintenance"
 
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.py:59
 msgid "Maintenance Status has to be Cancelled or Completed to Submit"
-msgstr "Le statut de maintenance doit être Annulé ou Terminé pour soumettre"
+msgstr "Le statut de maintenance doit être Annulé ou Terminé pour valider"
 
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
 #. Label of a Data field in DocType 'Asset Maintenance Task'
@@ -34519,14 +34518,14 @@ msgstr "Non autorisé à mettre à jour les transactions de stock antérieures �
 
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:408
 msgid "Not authorized to edit frozen Account {0}"
-msgstr "Non autorisé à modifier le compte gelé {0}"
+msgstr "Non autorisé à modifier le compte bloqué {0}"
 
 #: erpnext/setup/doctype/authorization_control/authorization_control.py:59
 msgid "Not authroized since {0} exceeds limits"
 msgstr "Non autorisé car {0} dépasse les limites"
 #: erpnext/accounts/doctype/gl_entry/gl_entry.py:405
 msgid "Not authorized to edit frozen Account {0}"
-msgstr "Vous n'êtes pas autorisé à modifier le compte gelé {0}"
+msgstr "Vous n'êtes pas autorisé à modifier le compte bloqué {0}"
 
 #: erpnext/templates/form_grid/stock_entry_grid.html:26
 msgid "Not in Stock"
@@ -39276,7 +39275,7 @@ msgstr "Veuillez entrer les numéros de série"
 
 #: erpnext/stock/doctype/shipment/shipment.py:85
 msgid "Please enter Shipment Parcel information"
-msgstr "Veuillez entrer les informations du colis d'expédition"
+msgstr "Veuillez entrer les informations du colis de livraison"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:202
 msgid "Please enter Stock Items consumed during the Repair."
@@ -40399,7 +40398,7 @@ msgstr "Date et heure de comptabilisation"
 #. Label of a Time field in DocType 'Stock Reconciliation'
 #. Label of a Time field in DocType 'Subcontracting Receipt'
 msgid "Posting Time"
-msgstr "Temps d'enregistrement"
+msgstr "Heure de publication"
 
 #: erpnext/stock/doctype/stock_entry/stock_entry.py:1861
 msgid "Posting date and posting time is mandatory"
@@ -43821,7 +43820,7 @@ msgstr "Plage"
 #. Label of a Currency field in DocType 'Subcontracting Receipt Item'
 #. Label of a Currency field in DocType 'Subcontracting Receipt Supplied Item'
 msgid "Rate"
-msgstr "Taux"
+msgstr "Prix"
 
 #: erpnext/manufacturing/doctype/bom_item/bom_item.json
 #. Label of a Section Break field in DocType 'BOM Item'
@@ -44015,7 +44014,7 @@ msgstr "Un taux ou une remise est requis pour la remise de prix"
 #. Label of a Table field in DocType 'Tax Withholding Category'
 #. Label of a Section Break field in DocType 'Stock Entry Detail'
 msgid "Rates"
-msgstr "Taux"
+msgstr "Prix"
 
 #: erpnext/quality_management/doctype/quality_feedback_parameter/quality_feedback_parameter.json
 #. Label of a Select field in DocType 'Quality Feedback Parameter'
@@ -46442,7 +46441,7 @@ msgstr "Rôle Habilité à créer/modifier des transactions antidatées"
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 #. Label of a Link field in DocType 'Stock Settings'
 msgid "Role Allowed to Edit Frozen Stock"
-msgstr "Rôle Habilité à Modifier le Stock Gelé"
+msgstr "Rôle Habilité à Modifier le Stock Bloqué"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 #. Label of a Link field in DocType 'Accounts Settings'
@@ -49406,7 +49405,7 @@ msgstr "Sélectionner la Dimension"
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.json
 #. Label of a Link field in DocType 'Purchase Invoice'
 msgid "Select Dispatch Address "
-msgstr "Sélectionner l'adresse d'expédition"
+msgstr "Sélectionner l'adresse de livraison"
 
 #: erpnext/utilities/doctype/rename_tool/rename_tool.json
 #. Label of a Select field in DocType 'Rename Tool'
@@ -51022,46 +51021,46 @@ msgstr "Expédition"
 #: erpnext/stock/doctype/shipment/shipment.json
 #. Label of a Currency field in DocType 'Shipment'
 msgid "Shipment Amount"
-msgstr "Montant d'expédition"
+msgstr "Montant de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #: erpnext/stock/doctype/shipment_delivery_note/shipment_delivery_note.json
 #. Label of a Table field in DocType 'Shipment'
 #. Name of a DocType
 msgid "Shipment Delivery Note"
-msgstr "Bon de livraison d'expédition"
+msgstr "Bon de livraison de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #. Label of a Data field in DocType 'Shipment'
 msgid "Shipment ID"
-msgstr "ID d'expédition"
+msgstr "ID de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #. Label of a Section Break field in DocType 'Shipment'
 msgid "Shipment Information"
-msgstr "Informations d'expédition"
+msgstr "Informations de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #: erpnext/stock/doctype/shipment_parcel/shipment_parcel.json
 #. Label of a Table field in DocType 'Shipment'
 #. Name of a DocType
 msgid "Shipment Parcel"
-msgstr "Colis d'expédition"
+msgstr "Colis de livraison"
 
 #: erpnext/stock/doctype/shipment_parcel_template/shipment_parcel_template.json
 #. Name of a DocType
 msgid "Shipment Parcel Template"
-msgstr "Modèle de colis d'expédition"
+msgstr "Modèle de colis de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #. Label of a Select field in DocType 'Shipment'
 msgid "Shipment Type"
-msgstr "Type d'expédition"
+msgstr "Type de livraison"
 
 #: erpnext/stock/doctype/shipment/shipment.json
 #. Label of a Section Break field in DocType 'Shipment'
 msgid "Shipment details"
-msgstr "Détails d'expédition"
+msgstr "Détails de livraison"
 
 #: erpnext/stock/doctype/delivery_note/delivery_note.py:782
 msgid "Shipments"
@@ -51070,7 +51069,7 @@ msgstr "Expéditions"
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #. Label of a Link field in DocType 'Shipping Rule'
 msgid "Shipping Account"
-msgstr "Compte d'expédition"
+msgstr "Compte de livraison"
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
@@ -51108,7 +51107,7 @@ msgstr "Compte d'expédition"
 #. Label of a Section Break field in DocType 'Purchase Receipt'
 #. Label of a Small Text field in DocType 'Subcontracting Receipt'
 msgid "Shipping Address"
-msgstr "Adresse d'expédition"
+msgstr "Adresse de livraison"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.json
 #: erpnext/buying/doctype/supplier_quotation/supplier_quotation.json
@@ -51117,7 +51116,7 @@ msgstr "Adresse d'expédition"
 #. Label of a Small Text field in DocType 'Supplier Quotation'
 #. Label of a Small Text field in DocType 'Subcontracting Order'
 msgid "Shipping Address Details"
-msgstr "Détails de l'adresse d'expédition"
+msgstr "Détails de l'adresse de livraison"
 
 #: erpnext/accounts/doctype/pos_invoice/pos_invoice.json
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.json
@@ -51131,7 +51130,7 @@ msgstr "Nom de l'adresse de livraison"
 #: erpnext/stock/doctype/purchase_receipt/purchase_receipt.json
 #. Label of a Link field in DocType 'Purchase Receipt'
 msgid "Shipping Address Template"
-msgstr "Modèle d'adresse d'expédition"
+msgstr "Modèle d'adresse de livraison"
 
 #: erpnext/controllers/accounts_controller.py:505
 msgid "Shipping Address does not belong to the {0}"
@@ -51142,15 +51141,15 @@ msgid ""
 "Shipping Address does not have country, which is required for this Shipping "
 "Rule"
 msgstr ""
-"L'adresse d'expédition n'a pas de pays, qui est requis pour cette règle "
-"d'expédition"
+"L'adresse de livraison n'a pas de pays, qui est requis pour cette règle "
+"de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
 #. Label of a Currency field in DocType 'Shipping Rule'
 #. Label of a Currency field in DocType 'Shipping Rule Condition'
 msgid "Shipping Amount"
-msgstr "Montant d'expédition"
+msgstr "Montant de livraison"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 #. Label of a Data field in DocType 'Tax Rule'
@@ -51192,33 +51191,33 @@ msgstr "Département de livraison"
 #. Label of a Link field in DocType 'Purchase Receipt'
 #. Label of a Link in the Stock Workspace
 msgid "Shipping Rule"
-msgstr "Règle d'expédition"
+msgstr "Règle de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule_condition/shipping_rule_condition.json
 #. Name of a DocType
 msgid "Shipping Rule Condition"
-msgstr "Condition de règle d'expédition"
+msgstr "Condition de règle de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #. Label of a Section Break field in DocType 'Shipping Rule'
 #. Label of a Table field in DocType 'Shipping Rule'
 msgid "Shipping Rule Conditions"
-msgstr "Conditions de règle d'expédition"
+msgstr "Conditions de règle de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule_country/shipping_rule_country.json
 #. Name of a DocType
 msgid "Shipping Rule Country"
-msgstr "Pays de règle d'expédition"
+msgstr "Pays de règle de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #. Label of a Data field in DocType 'Shipping Rule'
 msgid "Shipping Rule Label"
-msgstr "Libellé de règle d'expédition"
+msgstr "Libellé de règle de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #. Label of a Select field in DocType 'Shipping Rule'
 msgid "Shipping Rule Type"
-msgstr "Type de règle d'expédition"
+msgstr "Type de règle de livraison"
 
 #: erpnext/accounts/doctype/tax_rule/tax_rule.json
 #. Label of a Data field in DocType 'Tax Rule'
@@ -51233,16 +51232,16 @@ msgstr "Code postal de livraison"
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:133
 msgid "Shipping rule not applicable for country {0} in Shipping Address"
 msgstr ""
-"Règle d'expédition non applicable pour le pays {0} dans l'adresse "
-"d'expédition"
+"Règle de livraison non applicable pour le pays {0} dans l'adresse "
+"de livraison"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:152
 msgid "Shipping rule only applicable for Buying"
-msgstr "Règle d'expédition applicable uniquement pour l'achat"
+msgstr "Règle de livraison applicable uniquement pour l'achat"
 
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.py:147
 msgid "Shipping rule only applicable for Selling"
-msgstr "Règle d'expédition applicable uniquement pour la vente"
+msgstr "Règle de livraison applicable uniquement pour la vente"
 
 #: erpnext/selling/doctype/quotation/quotation.json
 #: erpnext/selling/doctype/quotation_item/quotation_item.json
@@ -51823,7 +51822,7 @@ msgstr "Spécifier le Taux de Change pour convertir une devise en une autre"
 #: erpnext/accounts/doctype/shipping_rule/shipping_rule.json
 #. Description of a DocType
 msgid "Specify conditions to calculate shipping amount"
-msgstr "Spécifier les conditions pour calculer le montant d'expédition"
+msgstr "Spécifier les conditions pour calculer le montant de livraison"
 
 #: erpnext/assets/doctype/asset/asset.js:561
 #: erpnext/stock/doctype/batch/batch.js:80
@@ -52549,7 +52548,7 @@ msgstr "Frais de stock"
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 #. Label of a Date field in DocType 'Stock Settings'
 msgid "Stock Frozen Upto"
-msgstr "Stock Gelé Jusqu'à"
+msgstr "Stock Bloqué Jusqu'à"
 
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:20
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:31
@@ -53041,7 +53040,7 @@ msgstr ""
 
 #: erpnext/stock/doctype/stock_ledger_entry/stock_ledger_entry.py:252
 msgid "Stock transactions before {0} are frozen"
-msgstr "Les transactions de stock avant {0} sont gelées"
+msgstr "Les transactions de stock avant {0} sont bloquées"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 #. Description of the 'Freeze Stocks Older Than (Days)' (Int) field in DocType
@@ -53068,7 +53067,7 @@ msgid ""
 "Stock/Accounts can not be frozen as processing of backdated entries is "
 "going on. Please try again later."
 msgstr ""
-"Le Stock/Comptes ne peuvent pas être gelés car le traitement d'écritures "
+"Le Stock/Comptes ne peuvent pas être bloqués car le traitement d'écritures "
 "antidatées est en cours. Veuillez réessayer plus tard."
 
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
@@ -53392,7 +53391,7 @@ msgstr "Sujet"
 #: erpnext/templates/pages/task_info.html:101
 #: erpnext/www/book_appointment/index.html:59
 msgid "Submit"
-msgstr "Soumettre"
+msgstr "Valider"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.py:913
 #: erpnext/subcontracting/doctype/subcontracting_receipt/subcontracting_receipt.py:835
@@ -53417,11 +53416,11 @@ msgstr "Valider les factures générées"
 #: erpnext/accounts/doctype/accounts_settings/accounts_settings.json
 #. Label of a Check field in DocType 'Accounts Settings'
 msgid "Submit Journal Entries"
-msgstr "Soumettre les Écritures de Journal"
+msgstr "Valider les Écritures de Journal"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.js:176
 msgid "Submit this Work Order for further processing."
-msgstr "Soumettre cet ordre de travail pour traitement ultérieur."
+msgstr "Valider cet ordre de travail pour traitement ultérieur."
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:280
 msgid "Submit your Quotation"
@@ -55805,7 +55804,7 @@ msgid ""
 "The account head under Liability or Equity, in which Profit/Loss will be "
 "booked"
 msgstr ""
-"L'intitulé du compte sous Passif ou Capitaux propres, dans lequel le "
+"Le compte principal sous Passif ou Capitaux propres, dans lequel le "
 "Profit/Perte sera comptabilisé"
 
 #: erpnext/accounts/doctype/payment_request/payment_request.py:864
@@ -55824,7 +55823,7 @@ msgid ""
 msgstr ""
 "Le montant de {0} défini dans cette demande de paiement est différent du "
 "montant calculé de tous les plans de paiement : {1}. Assurez-vous que c'est "
-"correct avant de soumettre le document."
+"correct avant de Valider le document."
 
 #: erpnext/accounts/doctype/dunning/dunning.py:86
 msgid ""
@@ -56170,7 +56169,7 @@ msgstr "Le fichier téléchargé ne correspond pas à la Liste de Codes sélecti
 
 #: erpnext/stock/doctype/serial_and_batch_bundle/serial_and_batch_bundle.js:10
 msgid "The user cannot submit the Serial and Batch Bundle manually"
-msgstr "L'utilisateur ne peut pas soumettre le Lot Série et Lot manuellement"
+msgstr "L'utilisateur ne peut pas Valider le Lot Série et Lot manuellement"
 
 #: erpnext/stock/doctype/stock_settings/stock_settings.json
 #. Description of the 'Role Allowed to Edit Frozen Stock' (Link) field in
@@ -56180,7 +56179,7 @@ msgid ""
 "even though the transaction is frozen."
 msgstr ""
 "Les utilisateurs avec ce Rôle sont autorisés à créer/modifier une "
-"transaction de stock, même si la transaction est gelée."
+"transaction de stock, même si la transaction est bloquée."
 
 #: erpnext/stock/doctype/item_alternative/item_alternative.py:55
 msgid "The value of {0} differs between Items {1} and {2}"
@@ -56315,7 +56314,7 @@ msgid ""
 "There can only be one Shipping Rule Condition with 0 or blank value for "
 "\"To Value\""
 msgstr ""
-"Il ne peut y avoir qu'une seule condition de règle d'expédition avec une "
+"Il ne peut y avoir qu'une seule condition de règle de livraison avec une "
 "valeur 0 ou vide pour \"Valeur jusqu'à\""
 
 #: erpnext/regional/doctype/lower_deduction_certificate/lower_deduction_certificate.py:65
@@ -62200,7 +62199,7 @@ msgstr ""
 
 #: erpnext/accounts/doctype/account/account.py:279
 msgid "You are not authorized to set Frozen value"
-msgstr "Vous n'êtes pas autorisé à définir une valeur gelée"
+msgstr "Vous n'êtes pas autorisé à définir une valeur bloquée"
 
 #: erpnext/stock/doctype/pick_list/pick_list.py:464
 msgid ""
@@ -62348,11 +62347,11 @@ msgstr "Vous ne pouvez pas redémarrer un abonnement qui n'est pas annulé"
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:218
 msgid "You cannot submit empty order."
-msgstr "Vous ne pouvez pas soumettre une commande vide."
+msgstr "Vous ne pouvez pas Valider une commande vide."
 
 #: erpnext/selling/page/point_of_sale/pos_payment.js:217
 msgid "You cannot submit the order without payment."
-msgstr "Vous ne pouvez pas soumettre la commande sans paiement."
+msgstr "Vous ne pouvez pas Valider la commande sans paiement."
 
 #: erpnext/accounts/doctype/period_closing_voucher/period_closing_voucher.py:105
 msgid ""
@@ -63333,7 +63332,7 @@ msgstr "{0} {1} est désactivé"
 
 #: erpnext/accounts/party.py:804
 msgid "{0} {1} is frozen"
-msgstr "{0} {1} est gelé"
+msgstr "{0} {1} est bloqué"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.py:819
 msgid "{0} {1} is fully billed"
@@ -64438,7 +64437,7 @@ msgid ""
 msgstr ""
 "Les bons de livraison ne doivent pas être à l'état de brouillon lors de la "
 "soumission d'un bon de livraison. Les bons de livraison suivants sont "
-"encore à l'état de projet : {0}. Veuillez les soumettre en premier."
+"encore à l'état de projet : {0}. Veuillez les Valider en premier."
 
 #: erpnext/setup/setup_wizard/data/designation.txt:14
 msgid "Designer"
@@ -64522,15 +64521,15 @@ msgstr "Ells (Royaume-Uni)"
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:51
 msgid "Enter the Bank Guarantee Number before submitting."
-msgstr "Saisir le numéro de garantie bancaire avant de soumettre."
+msgstr "Saisir le numéro de garantie bancaire avant de Valider."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:53
 msgid "Enter the name of the Beneficiary before submitting."
-msgstr "Saisir le nom du bénéficiaire avant de soumettre."
+msgstr "Saisir le nom du bénéficiaire avant de Valider."
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.py:55
 msgid "Enter the name of the bank or lending institution before submitting."
-msgstr "Saisir le nom de la banque ou de l'institution de prêt avant de soumettre."
+msgstr "Saisir le nom de la banque ou de l'institution de prêt avant de Valider."
 
 #: erpnext/setup/setup_wizard/data/uom_data.json
 #. Name of a UOM
@@ -66377,7 +66376,7 @@ msgstr "Erreur de réservation de l'entrepôt cible"
 
 #: erpnext/manufacturing/doctype/work_order/work_order.py:573
 msgid "Target Warehouse is required before Submit"
-msgstr "L'entrepôt cible est requis avant de Soumettre"
+msgstr "L'entrepôt cible est requis avant de Valider"
 
 #: erpnext/accounts/doctype/process_statement_of_accounts/process_statement_of_accounts_accounts_receivable.html:32
 msgid "Tax Id: {0}"
@@ -67129,7 +67128,7 @@ msgstr ""
 #: erpnext/assets/doctype/asset/asset.py:431
 msgid "{0} is still in Draft. Please submit it before saving the Asset."
 msgstr ""
-"{0} est encore à l'état de projet. Veuillez le soumettre avant de "
+"{0} est encore à l'état de projet. Veuillez le valider avant de "
 "sauvegarder l'actif."
 
 #: erpnext/accounts/doctype/sales_invoice/sales_invoice.py:2196

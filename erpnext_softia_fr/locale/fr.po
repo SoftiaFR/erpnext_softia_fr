@@ -184,3 +184,41 @@ msgstr "Le numéro de compte doit commencer par le compte parent ({0})."
 msgid "The account number cannot be the same as the parent account ({0})."
 msgstr "Le numéro de compte ne peut pas être identique au compte parent ({0})."
 
+#: erpnext_softia_fr/api/account_number_update.py
+msgid "Account.name field extended to VARCHAR(255)."
+msgstr "Champ Account.name étendu à VARCHAR(255)."
+
+#: erpnext_softia_fr/api/account_number_update.py
+msgid "Account.name already modified: {0}"
+msgstr "Account.name déjà modifié : {0}"
+
+#: erpnext_softia_fr/api/account_number_update.py
+msgid "All accounts and parents have been modified."
+msgstr "Tous les comptes et parents ont été modifiés."
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must begin with the parent account prefix ({0})."
+msgstr "Le numéro de compte doit commencer par le préfixe du compte parent ({0})."
+
+#: erpnext_softia_fr/public/js/account.js
+#: erpnext_softia_fr/public/js/custom_account_tree.js
+msgid "The account number must be exactly 8 digits long. It has been auto-padded to: {0}."
+msgstr "Le numéro de compte doit comporter exactement 8 chiffres. Il a été automatiquement complété par : {0}."
+
+#: erpnext_softia_fr/public/js/account.js
+msgid "The account number must contain exactly 8 digits: {0}"
+msgstr "Le numéro de compte doit comporter exactement 8 chiffres : {0}"
+
+#: erpnext_softia_fr/api/account_validations.py
+#: erpnext_softia_fr/public/js/custom_account_tree.js
+msgid "The account number must contain only numbers."
+msgstr "Le numéro de compte doit contenir uniquement des chiffres."
+
+#: erpnext_softia_fr/api/account_validations.py
+#: erpnext_softia_fr/public/js/custom_account_tree.js
+msgid "The account number must not exceed 8 digits."
+msgstr "Le numéro de compte ne doit pas dépasser 8 chiffres."
+
+#: erpnext_softia_fr/api/account_validations.py
+msgid "The account number must contain exactly 8 digits."
+msgstr "Le numéro de compte doit contenir exactement 8 chiffres."

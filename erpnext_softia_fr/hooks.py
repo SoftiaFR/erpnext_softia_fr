@@ -10,6 +10,10 @@ doctype_js = {
     "Opportunity": "public/js/opportunity.js",
     "Account": "public/js/account.js"
 }
+doctype_list_js = {
+    "Dashboard": "public/js/dashboard_list.js",
+    "Party Type": "public/js/party_type_list.js"
+}
 
 after_install = "erpnext_softia_fr.setup.install.after_install"
 
@@ -42,6 +46,9 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_softia_fr/css/erpnext_softia_fr.css"
 # app_include_js = "/assets/erpnext_softia_fr/js/erpnext_softia_fr.js"
+app_include_js = [
+    "/assets/erpnext_softia_fr/js/custom_account_tree.js"
+]
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_softia_fr/css/erpnext_softia_fr.css"
@@ -56,6 +63,7 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
+
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
@@ -259,3 +267,6 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 
 setup_wizard_complete = "erpnext_softia_fr.setup.default_data.create_data"
 after_migrate = ["erpnext_softia_fr.api.account_custom_fields.execute"]
+
+# TO DO after_migrate = ["erpnext_softia_fr.api.account_number_update.extend_account_numbers"]
+

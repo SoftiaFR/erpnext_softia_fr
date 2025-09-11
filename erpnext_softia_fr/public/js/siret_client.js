@@ -37,9 +37,9 @@ frappe.ui.form.on('Company', {
         });
     },
 
-    validate: function(frm) {
-        if (!frm.doc.siret_valide) {
-            frappe.throw(__("The SIRET number is invalid or has not been verified."));
-        }
-    }
+    // validate: function(frm) {
+    //     if (!frm.doc.siret_valide) {
+    //         frappe.throw(__("The SIRET number is invalid or has not been verified."));
+    //     }
+    // }
 });
