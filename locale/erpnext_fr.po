@@ -3859,11 +3859,11 @@ msgstr "Coût d'Activité"
 
 #: erpnext/projects/doctype/activity_cost/activity_cost.py:51
 msgid "Activity Cost exists for Employee {0} against Activity Type - {1}"
-msgstr "Un coût d'activité existe pour l'employé {0} contre le type d'activité - {1}"
+msgstr "Un coût d'activité existe pour le salarié {0} contre le type d'activité - {1}"
 
 #: erpnext/projects/doctype/activity_type/activity_type.js:10
 msgid "Activity Cost per Employee"
-msgstr "Coût d'activité par employé"
+msgstr "Coût d'activité par salarié"
 
 #: erpnext/accounts/doctype/sales_invoice_timesheet/sales_invoice_timesheet.json
 #: erpnext/projects/doctype/activity_cost/activity_cost.json
@@ -4101,7 +4101,7 @@ msgstr "Ajouter une remise"
 
 #: erpnext/public/js/event.js:40
 msgid "Add Employees"
-msgstr "Ajouter des employés"
+msgstr "Ajouter des salariés"
 
 #: erpnext/public/js/bom_configurator/bom_configurator.bundle.js:241
 #: erpnext/selling/doctype/sales_order/sales_order.js:254
@@ -5175,7 +5175,7 @@ msgstr "Tous les départements"
 #: erpnext/selling/doctype/sms_center/sms_center.json
 #. Option for the 'Send To' (Select) field in DocType 'SMS Center'
 msgid "All Employee (Active)"
-msgstr "Tous les Employés (Actifs)"
+msgstr "Tous les Salariés (Actifs)"
 
 #: erpnext/setup/doctype/item_group/item_group.py:36
 #: erpnext/setup/doctype/item_group/item_group.py:37
@@ -6448,7 +6448,7 @@ msgstr "Une autre Demande de Paiement est déjà en cours de traitement"
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:123
 msgid "Another Sales Person {0} exists with the same Employee id"
-msgstr "Un autre commercial {0} existe avec le même identifiant d'employé"
+msgstr "Un autre commercial {0} existe avec le même identifiant de salarié"
 
 #: erpnext/stock/report/fifo_queue_vs_qty_after_transaction_comparison/fifo_queue_vs_qty_after_transaction_comparison.py:37
 msgid "Any one of following filters required: warehouse, Item Code, Item Group"
@@ -6506,7 +6506,7 @@ msgstr "Applicable À (Désignation)"
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 #. Label of a Link field in DocType 'Authorization Rule'
 msgid "Applicable To (Employee)"
-msgstr "Applicable À (Employé)"
+msgstr "Applicable À (Salarié)"
 
 #: erpnext/setup/doctype/authorization_rule/authorization_rule.json
 #. Label of a Link field in DocType 'Authorization Rule'
@@ -7355,7 +7355,7 @@ msgstr "Actif supprimé"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:167
 msgid "Asset issued to Employee {0}"
-msgstr "Actif émis pour l'employé {0}"
+msgstr "Actif émis pour le salarié {0}"
 
 #: erpnext/assets/doctype/asset_repair/asset_repair.py:83
 msgid "Asset out of order due to Asset Repair {0}"
@@ -7363,7 +7363,7 @@ msgstr "Actif hors service à cause de la réparation d'actif {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:154
 msgid "Asset received at Location {0} and issued to Employee {1}"
-msgstr "Actif reçu à l'emplacement {0} et émis pour l'employé {1}"
+msgstr "Actif reçu à l'emplacement {0} et émis pour le salarié {1}"
 
 #: erpnext/assets/doctype/asset/depreciation.py:458
 msgid "Asset restored"
@@ -7517,7 +7517,7 @@ msgstr "Actif{est_pluriel} {lien_actif} créé pour {code_article}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:289
 msgid "Assign Job to Employee"
-msgstr "Assigner un travail à un employé"
+msgstr "Assigner un travail à un salarié"
 
 #: erpnext/assets/doctype/asset_maintenance_log/asset_maintenance_log.json
 #: erpnext/assets/doctype/asset_maintenance_task/asset_maintenance_task.json
@@ -10839,7 +10839,7 @@ msgstr ""
 
 #: erpnext/setup/doctype/employee/employee.py:185
 msgid "Cannot Relieve Employee"
-msgstr "Impossible de Libérer l'Employé"
+msgstr "Impossible de Libérer le Salarié"
 
 #: erpnext/accounts/doctype/repost_accounting_ledger/repost_accounting_ledger.py:72
 msgid "Cannot Resubmit Ledger entries for vouchers in Closed fiscal year."
@@ -14656,15 +14656,15 @@ msgstr "Créer une écriture d'amortissement"
 
 #: erpnext/utilities/activation.py:137
 msgid "Create Employee"
-msgstr "Créer un employé"
+msgstr "Créer un salarié"
 
 #: erpnext/utilities/activation.py:135
 msgid "Create Employee Records"
-msgstr "Créer des dossiers d'employés"
+msgstr "Créer des dossiers de salariés"
 
 #: erpnext/utilities/activation.py:136
 msgid "Create Employee records."
-msgstr "Créer des enregistrements d'employé."
+msgstr "Créer des enregistrements de salarié."
 
 #: erpnext/stock/doctype/item/item.json
 #. Label of a Check field in DocType 'Item'
@@ -20250,12 +20250,12 @@ msgstr "Téléphone d'Urgence"
 #. Label of a Link field in DocType 'Delivery Trip'
 #. Label of a Link field in DocType 'Serial No'
 msgid "Employee"
-msgstr "Employé"
+msgstr "Salarié"
 
 #: erpnext/buying/doctype/supplier_scorecard_scoring_standing/supplier_scorecard_scoring_standing.json
 #. Label of a Link field in DocType 'Supplier Scorecard Scoring Standing'
 msgid "Employee "
-msgstr "Employé"
+msgstr "Salarié"
 
 #: erpnext/accounts/doctype/journal_entry_account/journal_entry_account.json
 #. Option for the 'Reference Type' (Select) field in DocType 'Journal Entry
@@ -20266,52 +20266,52 @@ msgstr "Avance sur salaire"
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts.py:16
 #: erpnext/accounts/doctype/account/chart_of_accounts/verified/standard_chart_of_accounts_with_account_number.py:23
 msgid "Employee Advances"
-msgstr "Avances employé"
+msgstr "Avances salarié"
 
 #: erpnext/projects/report/employee_billing_summary/employee_billing_summary.json
 #. Name of a report
 msgid "Employee Billing Summary"
-msgstr "Résumé de Facturation Employé"
+msgstr "Résumé de Facturation Salarié"
 
 #: erpnext/projects/doctype/timesheet/timesheet.json
 #. Label of a Section Break field in DocType 'Timesheet'
 msgid "Employee Detail"
-msgstr "Détail d'Employé"
+msgstr "Détail de Salarié"
 
 #: erpnext/setup/doctype/employee_education/employee_education.json
 #. Name of a DocType
 msgid "Employee Education"
-msgstr "Formation des Employés"
+msgstr "Formation des Salariés"
 #. Label of the exit (Tab Break) field in DocType 'Employee'
 #: erpnext/setup/doctype/employee/employee.json
 msgid "Employee Exit"
-msgstr "Sortie de l’employé"
+msgstr "Sortie de salarié"
 
 #: erpnext/setup/doctype/employee_external_work_history/employee_external_work_history.json
 #. Name of a DocType
 msgid "Employee External Work History"
-msgstr "Historique de Travail Externe de l'Employé"
+msgstr "Historique de Travail Externe de Salarié"
 
 #: erpnext/communication/doctype/communication_medium_timeslot/communication_medium_timeslot.json
 #: erpnext/setup/doctype/employee_group/employee_group.json
 #. Label of a Link field in DocType 'Communication Medium Timeslot'
 #. Name of a DocType
 msgid "Employee Group"
-msgstr "Groupe d'employés"
+msgstr "Groupe de salariés"
 
 #: erpnext/setup/doctype/employee_group_table/employee_group_table.json
 #. Name of a DocType
 msgid "Employee Group Table"
-msgstr "Table de Groupe d'Employés"
+msgstr "Table de Groupe de Salariés"
 
 #: erpnext/projects/report/billing_summary.py:13
 msgid "Employee ID"
-msgstr "ID employé"
+msgstr "ID salarié"
 
 #: erpnext/setup/doctype/employee_internal_work_history/employee_internal_work_history.json
 #. Name of a DocType
 msgid "Employee Internal Work History"
-msgstr "Historique de Travail Interne de l'Employé"
+msgstr "Historique de Travail Interne de Salarié"
 
 #: erpnext/projects/doctype/activity_cost/activity_cost.json
 #: erpnext/projects/doctype/timesheet/timesheet.json
@@ -20322,38 +20322,38 @@ msgstr "Historique de Travail Interne de l'Employé"
 #. Label of a Data field in DocType 'Timesheet'
 #. Label of a Data field in DocType 'Employee Group Table'
 msgid "Employee Name"
-msgstr "Nom de l'employé"
+msgstr "Nom du salarié"
 
 #: erpnext/setup/doctype/employee/employee.json
 #. Label of a Data field in DocType 'Employee'
 msgid "Employee Number"
-msgstr "Numéro d'employé"
+msgstr "Numéro de salarié"
 
 #: erpnext/telephony/doctype/call_log/call_log.json
 #. Label of a Link field in DocType 'Call Log'
 msgid "Employee User Id"
-msgstr "ID utilisateur de l'employé"
+msgstr "ID utilisateur du salarié"
 
 #: erpnext/setup/doctype/employee/employee.py:217
 msgid "Employee cannot report to himself."
-msgstr "L'employé ne peut pas se rapporter à lui-même."
+msgstr "Le salarié ne peut pas se rapporter à lui-même."
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:95
 msgid "Employee is required while issuing Asset {0}"
-msgstr "Un employé est requis lors de l'émission de l'actif {0}"
+msgstr "Un salarié est requis lors de l'émission de l'actif {0}"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:78
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:99
 msgid "Employee {0} does not belongs to the company {1}"
-msgstr "L'employé {0} n'appartient pas à l'entreprise {1}"
+msgstr "Le salarié {0} n'appartient pas à l'entreprise {1}"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.py:260
 msgid ""
 "Employee {0} is currently working on another workstation. Please assign "
 "another employee."
 msgstr ""
-"L'Employé {0} travaille actuellement sur un autre poste de travail. "
-"Veuillez assigner un autre employé."
+"Le Salarié {0} travaille actuellement sur un autre poste de travail. "
+"Veuillez assigner un autre salarié."
 
 #: erpnext/stock/doctype/batch/batch_list.js:16
 msgid "Empty"
@@ -20692,7 +20692,7 @@ msgid ""
 "Enter First and Last name of Employee, based on Which Full Name will be "
 "updated. IN transactions, it will be Full Name which will be fetched."
 msgstr ""
-"Entrez le prénom et nom de l'employé sur la base duquel le nom complet sera "
+"Entrez le prénom et nom du salarié sur la base duquel le nom complet sera "
 "mis à jour. Dans les transactions ce sera le nom complet qui sera récupéré."
 
 #: erpnext/public/js/utils/serial_no_batch_selector.js:201
@@ -23030,11 +23030,11 @@ msgstr "Depuis la date d'échéance"
 #: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
 #. Label of a Link field in DocType 'Asset Movement Item'
 msgid "From Employee"
-msgstr "De l'employé"
+msgstr "Du salarié"
 
 #: erpnext/assets/doctype/asset_movement/asset_movement.py:84
 msgid "From Employee is required while issuing Asset {0}"
-msgstr "L'employé doit être mentionné lors de l'émission de l'actif {0}"
+msgstr "Le salarié doit être mentionné lors de l'émission de l'actif {0}"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:43
 msgid "From Fiscal Year"
@@ -24393,7 +24393,7 @@ msgstr "Semestriel"
 
 #: erpnext/accounts/report/accounts_payable/accounts_payable.js:153
 msgid "Handle Employee Advances"
-msgstr "Gérer les Avances Employé"
+msgstr "Gérer les Avances Salarié"
 
 #: erpnext/setup/setup_wizard/operations/install_fixtures.py:204
 msgid "Hardware"
@@ -24622,7 +24622,7 @@ msgid ""
 "Here, you can select a senior of this Employee. Based on this, Organization "
 "Chart will be populated."
 msgstr ""
-"Ici vous pouvez sélectionner un supérieur de cet employé. Basé sur ceci "
+"Ici vous pouvez sélectionner un supérieur de cet salarié. Basé sur ceci "
 "l'organigramme sera peuplé."
 
 #: erpnext/setup/doctype/holiday_list/holiday_list.js:77
@@ -25543,7 +25543,7 @@ msgstr "Ignorer le modèle de conditions de paiement par défaut"
 #: erpnext/projects/doctype/projects_settings/projects_settings.json
 #. Label of a Check field in DocType 'Projects Settings'
 msgid "Ignore Employee Time Overlap"
-msgstr "Ignorer le Chevauchement de Temps Employé"
+msgstr "Ignorer le Chevauchement de Temps Salarié"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.js:140
 msgid "Ignore Empty Stock"
@@ -33327,7 +33327,7 @@ msgstr "Nom"
 #: erpnext/setup/doctype/sales_person/sales_person.json
 #. Label of a Section Break field in DocType 'Sales Person'
 msgid "Name and Employee ID"
-msgstr "Nom et ID d'Employé"
+msgstr "Nom et ID du Salarié"
 
 #: erpnext/accounts/doctype/bank_guarantee/bank_guarantee.json
 #. Label of a Data field in DocType 'Bank Guarantee'
@@ -33774,7 +33774,7 @@ msgstr "Nouveau département"
 
 #: erpnext/setup/doctype/employee/employee_tree.js:29
 msgid "New Employee"
-msgstr "Nouvel employé"
+msgstr "Nouvel salarié"
 
 #: erpnext/public/js/templates/crm_activities.html:14
 #: erpnext/public/js/utils/crm_activities.js:85
@@ -34169,7 +34169,7 @@ msgstr "Aucune différence trouvée pour le compte de stock {0}"
 
 #: erpnext/telephony/doctype/call_log/call_log.py:117
 msgid "No employee was scheduled for call popup"
-msgstr "Aucun employé n'était planifié pour le popup d'appel"
+msgstr "Aucun salarié n'était planifié pour le popup d'appel"
 
 #: erpnext/accounts/doctype/bank_statement_import/bank_statement_import.js:500
 msgid "No failed logs"
@@ -34230,7 +34230,7 @@ msgstr "Nb de documents"
 #. Label of a Select field in DocType 'Lead'
 #. Label of a Select field in DocType 'Opportunity'
 msgid "No of Employees"
-msgstr "Nombre d'Employés"
+msgstr "Nombre de salariés"
 
 #: erpnext/crm/report/lead_conversion_time/lead_conversion_time.py:61
 msgid "No of Interactions"
@@ -34369,7 +34369,7 @@ msgstr "N°"
 #: erpnext/crm/doctype/prospect/prospect.json
 #. Label of a Select field in DocType 'Prospect'
 msgid "No. of Employees"
-msgstr "Nb d'employés"
+msgstr "Nb de salariés"
 
 #: erpnext/manufacturing/doctype/workstation/workstation.js:66
 msgid ""
@@ -34703,7 +34703,7 @@ msgstr "Notifier les clients par email"
 #. Label of a Check field in DocType 'Supplier Scorecard'
 #. Label of a Check field in DocType 'Supplier Scorecard Scoring Standing'
 msgid "Notify Employee"
-msgstr "Notifier l'employé"
+msgstr "Notifier le salarié"
 
 #: erpnext/buying/doctype/supplier_scorecard_standing/supplier_scorecard_standing.json
 #. Label of a Check field in DocType 'Supplier Scorecard Standing'
@@ -39214,7 +39214,7 @@ msgstr "Veuillez saisir la date de livraison"
 
 #: erpnext/setup/doctype/sales_person/sales_person_tree.js:9
 msgid "Please enter Employee Id of this sales person"
-msgstr "Veuillez saisir l'identifiant de l'employé de ce vendeur"
+msgstr "Veuillez saisir l'identifiant du salarié de ce vendeur"
 
 #: erpnext/stock/doctype/stock_reconciliation/stock_reconciliation.py:959
 msgid "Please enter Expense Account"
@@ -39394,8 +39394,8 @@ msgstr ""
 #: erpnext/setup/doctype/employee/employee.py:184
 msgid "Please make sure the employees above report to another Active employee."
 msgstr ""
-"Veuillez vous assurer que les employés ci-dessus rapportent à un autre "
-"employé Actif."
+"Veuillez vous assurer que les salariés ci-dessus rapportent à un autre "
+"salarié Actif."
 
 #: erpnext/accounts/doctype/chart_of_accounts_importer/chart_of_accounts_importer.py:374
 msgid ""
@@ -39932,7 +39932,7 @@ msgstr "Veuillez définir une liste de jours fériés par défaut pour l'entrepr
 #: erpnext/setup/doctype/employee/employee.py:281
 msgid "Please set a default Holiday List for Employee {0} or Company {1}"
 msgstr ""
-"Veuillez définir une liste de congés par défaut pour l'employé {0} ou "
+"Veuillez définir une liste de congés par défaut pour le salarié {0} ou "
 "l'entreprise {1}."
 
 #: erpnext/accounts/doctype/purchase_invoice/purchase_invoice.py:1092
@@ -49378,7 +49378,7 @@ msgid ""
 "Select Date of Birth. This will validate Employees age and prevent hiring "
 "of under-age staff."
 msgstr ""
-"Sélectionner la Date de Naissance. Cela validera l'âge des Employés et "
+"Sélectionner la Date de Naissance. Cela validera l'âge des Salariés et "
 "empêchera l'embauche de personnel mineur."
 
 #: erpnext/setup/doctype/employee/employee.js:110
@@ -49414,7 +49414,7 @@ msgstr "Sélectionner le type de document"
 
 #: erpnext/manufacturing/doctype/job_card/job_card.js:282
 msgid "Select Employees"
-msgstr "Sélectionner les Employés"
+msgstr "Sélectionner les Salariés"
 
 #: erpnext/buying/doctype/purchase_order/purchase_order.js:223
 msgid "Select Finished Good"
@@ -49515,7 +49515,7 @@ msgstr "Sélectionner une Entreprise"
 
 #: erpnext/setup/doctype/employee/employee.js:98
 msgid "Select a Company this Employee belongs to."
-msgstr "Sélectionnez une entreprise à laquelle cet employé appartient."
+msgstr "Sélectionnez une entreprise à laquelle cet salarié appartient."
 
 #: erpnext/buying/doctype/supplier/supplier.js:188
 #: erpnext/selling/from_tour/sales_order/sales_order.json
@@ -50840,7 +50840,7 @@ msgid ""
 "Setting Events to {0}, since the Employee attached to the below Sales "
 "Persons does not have a User ID{1}"
 msgstr ""
-"Définition des événements à {0}, car l'employé attaché aux commerciaux "
+"Définition des événements à {0}, car le salarié attaché aux commerciaux "
 "ci-dessous n'a pas d'ID utilisateur {1}"
 
 #: erpnext/stock/doctype/pick_list/pick_list.js:87
@@ -50983,7 +50983,7 @@ msgstr "Type d'action"
 #. Name of a DocType
 #. Label of a Link in the Accounting Workspace
 msgid "Shareholder"
-msgstr "Associé/Actionnaire"
+msgstr "Associé"
 
 #: erpnext/stock/doctype/item/item.json
 #. Label of a Int field in DocType 'Item'
@@ -55915,7 +55915,7 @@ msgstr ""
 
 #: erpnext/setup/doctype/employee/employee.py:179
 msgid "The following employees are currently still reporting to {0}:"
-msgstr "Les employés suivants rapportent encore actuellement à {0} :"
+msgstr "Les salariés suivants rapportent encore actuellement à {0} :"
 
 #: erpnext/accounts/doctype/promotional_scheme/promotional_scheme.py:185
 msgid "The following invalid Pricing Rules are deleted:"
@@ -56750,7 +56750,7 @@ msgstr ""
 #. Description of the 'Create User Permission' (Check) field in DocType
 #. 'Employee'
 msgid "This will restrict user access to other employee records"
-msgstr "Ceci limitera l'accès de l'utilisateur aux autres dossiers d'employés"
+msgstr "Ceci limitera l'accès de l'utilisateur aux autres dossiers de salariés"
 
 #: erpnext/controllers/selling_controller.py:800
 msgid "This {} will be treated as material transfer."
@@ -57266,7 +57266,7 @@ msgstr "À la Date d'Échéance"
 #: erpnext/assets/doctype/asset_movement_item/asset_movement_item.json
 #. Label of a Link field in DocType 'Asset Movement Item'
 msgid "To Employee"
-msgstr "À l'employé"
+msgstr "Au salarié"
 
 #: erpnext/accounts/report/budget_variance_report/budget_variance_report.js:51
 msgid "To Fiscal Year"
@@ -59834,7 +59834,7 @@ msgstr "ID utilisateur"
 
 #: erpnext/setup/doctype/sales_person/sales_person.py:113
 msgid "User ID not set for Employee {0}"
-msgstr "ID utilisateur non défini pour l'employé {0}"
+msgstr "ID utilisateur non défini pour le salarié {0}"
 
 #: erpnext/accounts/doctype/journal_entry/journal_entry.js:582
 #: erpnext/accounts/doctype/journal_entry/journal_entry.json
@@ -59867,7 +59867,7 @@ msgstr ""
 
 #: erpnext/setup/doctype/employee/employee.py:211
 msgid "User {0} is already assigned to Employee {1}"
-msgstr "L'utilisateur {0} est déjà assigné à l'employé {1}"
+msgstr "L'utilisateur {0} est déjà assigné au salarié {1}"
 
 #: erpnext/setup/doctype/employee/employee.py:196
 msgid "User {0} is disabled"
@@ -59877,12 +59877,12 @@ msgstr "L'utilisateur {0} est désactivé"
 msgid "User {0}: Removed Employee Self Service role as there is no mapped employee."
 msgstr ""
 "Utilisateur {0} : Suppression du rôle \"Employee Self Service\" car il n'y "
-"a pas d'employé mappé."
+"a pas de salarié mappé."
 
 #: erpnext/setup/doctype/employee/employee.py:244
 msgid "User {0}: Removed Employee role as there is no mapped employee."
 msgstr ""
-"Utilisateur {0} : Suppression du rôle d'employé car il n'y a pas d'employé "
+"Utilisateur {0} : Suppression du rôle de salarié car il n'y a pas de salarié "
 "mappé."
 
 #: erpnext/accounts/doctype/pos_opening_entry/pos_opening_entry.py:50

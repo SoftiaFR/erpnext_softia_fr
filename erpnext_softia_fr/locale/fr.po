@@ -222,3 +222,177 @@ msgstr "Le numéro de compte ne doit pas dépasser 8 chiffres."
 #: erpnext_softia_fr/api/account_validations.py
 msgid "The account number must contain exactly 8 digits."
 msgstr "Le numéro de compte doit contenir exactement 8 chiffres."
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+msgid "Veuillez sélectionner une société et une période."
+msgstr "Veuillez sélectionner une société et une période."
+
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.json
+#. Name of the report (title in UI and list)
+msgid "Interim Management Balances"
+msgstr "Soldes Intermédiaires de Gestion"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+msgid "Please select a company and a period."
+msgstr "Veuillez sélectionner une société et une période."
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a column in the report
+msgid "SIG"
+msgstr "SIG"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a column in the report
+msgid "Calculation"
+msgstr "Calcul"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a column in the report
+msgid "Result"
+msgstr "Résultat"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a column in the report
+msgid "% of Turnover"
+msgstr "% du CA"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Turnover"
+msgstr "Chiffre d'affaires"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Turnover
+msgid "Total Sales"
+msgstr "Ventes totales"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Commercial Margin"
+msgstr "Marge commerciale"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Commercial Margin
+msgid "Sales of Merchandise"
+msgstr "Ventes de marchandises"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Commercial Margin
+msgid "Cost of Purchased Goods Sold"
+msgstr "Coût d’achat des marchandises vendues"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Production of the Exercise"
+msgstr "Production de l'exercice"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Production of the Exercise
+msgid "Sold Production"
+msgstr "Production vendue"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Production of the Exercise
+msgid "Stocked Production"
+msgstr "Production stockée"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Production of the Exercise
+msgid "Immobilized Production"
+msgstr "Production immobilisée"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Value Added"
+msgstr "Valeur ajoutée"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Value Added
+msgid "External Consumptions"
+msgstr "Consommations externes"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "EBE"
+msgstr "EBE"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for EBE
+msgid "Personnel Charges"
+msgstr "Charges de personnel"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for EBE
+msgid "Taxes and Duties"
+msgstr "Impôts et taxes"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Operating Result"
+msgstr "Résultat d'exploitation"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Operating Result
+msgid "Depreciation and Provisions"
+msgstr "Dotations aux amortissements et provisions"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "RCAI"
+msgstr "RCAI"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for RCAI
+msgid "Operating Result"
+msgstr "Résultat d’exploitation"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for RCAI
+msgid "Financial Products"
+msgstr "Produits financiers"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for RCAI
+msgid "Financial Charges"
+msgstr "Charges financières"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Exceptional Result"
+msgstr "Résultat exceptionnel"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Exceptional Result
+msgid "Exceptional Products"
+msgstr "Produits exceptionnels"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Exceptional Result
+msgid "Exceptional Charges"
+msgstr "Charges exceptionnelles"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Label of a row in the report (SIG name)
+msgid "Net Result"
+msgstr "Résultat net"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.py
+#. Part of the calculation text for Net Result
+msgid "Taxes on Profits"
+msgstr "Impôts sur les bénéfices"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.json
+#. Label of a filter in the report
+msgid "Company"
+msgstr "Société"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.json
+#. Label of a filter in the report
+msgid "From Date"
+msgstr "Date début"
+
+#: erpnext_softia_fr/report/interim_management_balances/interim_management_balances.json
+#. Label of a filter in the report
+msgid "To Date"
+msgstr "Date fin"

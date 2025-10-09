@@ -1,0 +1,83 @@
+{
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [
+    {
+     "fieldname": "sig",
+     "label": "SIG",
+     "fieldtype": "Data",
+     "width": 200
+    },
+    {
+     "fieldname": "calcul",
+     "label": "Calculation",
+     "fieldtype": "Data",
+     "width": 250
+    },
+    {
+     "fieldname": "resultat",
+     "label": "Result",
+     "fieldtype": "Currency",
+     "width": 150,
+     "options": "Company:company:default_currency"
+    },
+    {
+     "fieldname": "pourcent_ca",
+     "label": "% of Turnover",
+     "fieldtype": "Float",
+     "width": 100
+    }
+  ],
+  "creation": "2025-10-03 13:20:26.682969",
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [
+    {
+     "fieldname": "company",
+     "label": "Company",
+     "fieldtype": "Link",
+     "options": "Company",
+     "reqd": 1,
+     "default": ""
+    },
+    {
+     "fieldname": "from_date",
+     "label": "From Date",
+     "fieldtype": "Date",
+     "reqd": 1,
+     "default": "Today"
+    },
+    {
+     "fieldname": "to_date",
+     "label": "To Date",
+     "fieldtype": "Date",
+     "reqd": 1,
+     "default": "Today"
+    }
+  ],
+  "idx": 0,
+  "is_standard": "Yes",
+  "letterhead": null,
+  "modified": "2025-10-03 13:22:54.424384",
+  "modified_by": "Administrator",
+  "module": "erpnext_softia_fr",
+  "name": "Interim Management Balances",
+  "owner": "Administrator",
+  "prepared_report": 0,
+  "ref_doctype": "GL Entry",
+  "report_name": "Interim Management Balances",
+  "report_type": "Script Report",
+  "roles": [
+    {
+     "role": "Accounts User"
+    },
+    {
+     "role": "Accounts Manager"
+    },
+    {
+     "role": "Auditor"
+    }
+  ],
+  "timeout": 0
+}

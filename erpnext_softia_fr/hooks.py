@@ -4,6 +4,18 @@ app_publisher = "Softia ingénierie"
 app_description = "Integration de Siret"
 app_email = ""
 app_license = "mit"
+app_logo_url = "/assets/erpnext_softia_fr/images/ERPNext_By_Softia_logo.png"
+
+
+add_to_apps_screen = [
+	{
+		"name": "ERPNext_By_Softia",
+		"logo": "/assets/erpnext_softia_fr/images/ERPNext_By_Softia_logo.png",
+		"title": "ERPNext By Softia",
+		"route": "/app/home",
+		"has_permission": "erpnext.check_app_permission",
+	}
+]
 
 doctype_js = {
     "Company": "public/js/siret_client.js",
@@ -46,8 +58,12 @@ after_install = "erpnext_softia_fr.setup.install.after_install"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_softia_fr/css/erpnext_softia_fr.css"
 # app_include_js = "/assets/erpnext_softia_fr/js/erpnext_softia_fr.js"
+app_include_css = "/assets/erpnext_softia_fr/css/custom_theme.css"
 app_include_js = [
-    "/assets/erpnext_softia_fr/js/custom_account_tree.js"
+    "/assets/erpnext_softia_fr/js/custom_account_tree.js",
+    "/assets/erpnext_softia_fr/js/trial_balance_for_party.js",
+    "/assets/erpnext_softia_fr/js/custom_theme_handler.js",
+    "/assets/erpnext_softia_fr/js/custom_logo.js"    
 ]
 
 # include js, css files in header of web template
@@ -56,6 +72,10 @@ app_include_js = [
 
 # include custom scss in every website theme (without file extension ".scss")
 # website_theme_scss = "erpnext_softia_fr/public/scss/website"
+website_context = {
+	"favicon": "/assets/erpnext_softia_fr/images/ERPNext_By_Softia_logo.png",
+	"splash_image": "/assets/erpnext_softia_fr/images/ERPNext_By_Softia_logo.png",
+}
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -200,6 +220,9 @@ app_include_js = [
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "erpnext_softia_fr.event.get_events"
 # }
+override_whitelisted_methods = {
+	"frappe.core.doctype.user.user.switch_theme": "erpnext_softia_fr.config.theme_switcher.switch_theme"
+}
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -266,7 +289,10 @@ app_include_js = [
 # }
 
 setup_wizard_complete = "erpnext_softia_fr.setup.default_data.create_data"
-after_migrate = ["erpnext_softia_fr.api.account_custom_fields.execute"]
+after_migrate = [
+    "erpnext_softia_fr.api.account_custom_fields.execute",
+    "erpnext_softia_fr.api.add_interim_safe.execute"
+    ]
 
 # TO DO after_migrate = ["erpnext_softia_fr.api.account_number_update.extend_account_numbers"]
 
