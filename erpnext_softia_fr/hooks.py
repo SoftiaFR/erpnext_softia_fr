@@ -288,7 +288,10 @@ override_whitelisted_methods = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-setup_wizard_complete = "erpnext_softia_fr.setup.default_data.create_data"
+setup_wizard_complete = [
+    "erpnext_softia_fr.setup.default_data.create_data",
+    "erpnext_softia_fr.setup.translation_stock_entry_type.translation_stock_entry_type"
+    ]
 after_migrate = [
     "erpnext_softia_fr.api.account_custom_fields.execute",
     "erpnext_softia_fr.api.add_interim_safe.execute"
