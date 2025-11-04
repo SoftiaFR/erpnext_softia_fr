@@ -67163,3 +67163,18 @@ msgstr "{ref_doctype} {ref_name} est {status}."
 #: erpnext/assets/report/fixed_asset_register/fixed_asset_register.py:430
 msgid "{}"
 msgstr "{}"
+
+msgid "Last Task Description"
+msgstr "Description dernière tâche"
+
+msgid "Last Task Date"
+msgstr "Date dernière tâche"
+
+msgid "Last Task Assignee"
+msgstr "Personne assignée à la dernière tâche"
+
+msgid "No task found"
+msgstr "Aucune tâche trouvée"
+
+msgid "Disable Comment Count"
+msgstr "Désactiver le nombre de commentaires"

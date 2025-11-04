@@ -24,7 +24,8 @@ doctype_js = {
 }
 doctype_list_js = {
     "Dashboard": "public/js/dashboard_list.js",
-    "Party Type": "public/js/party_type_list.js"
+    "Party Type": "public/js/party_type_list.js",
+    "Lead": "public/js/lead_list.js",
 }
 
 after_install = "erpnext_softia_fr.setup.install.after_install"
