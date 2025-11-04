@@ -24,6 +24,15 @@ function add_custom_columns(listview) {
         // Utilise la structure interne de Frappe
         const $page = listview.$page;
         const $result = $page.find('.result');
+
+        // Injecte un style minimal une seule fois pour afficher un aperçu clamped
+        if (!document.getElementById('custom-task-style')) {
+            var css = '\n                .list-row-col.custom-task-desc .ellipsis{ display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; text-overflow:ellipsis; max-width:150px; }\n                .list-row-col.custom-task-desc .ellipsis[title]{ cursor:help; }\n                .list-row-col.custom-task-desc{ min-width:150px; }\n            ';
+            var style = document.createElement('style');
+            style.id = 'custom-task-style';
+            style.appendChild(document.createTextNode(css));
+            document.head.appendChild(style);
+        }
         
         
         // Ajoute les headers
@@ -42,7 +51,7 @@ function add_custom_columns(listview) {
             `);
         }
         
-        // Boucle sur listview.data (c'est fiable)
+        // Boucle sur listview.data 
         listview.data.forEach(function(row_data, idx) {
             const lead_name = row_data.name;
             
@@ -88,9 +97,23 @@ function add_custom_columns(listview) {
                 args: { lead_name: lead_name },
                 callback: function(r) {
                     if (r.message && r.message.date) {
+                        // Date et assigné en texte simple
                         $date_col.find('span').text(r.message.date).attr('title', r.message.date);
-                        $assign_col.find('span').text(r.message.assigned_to);
-                        $desc_col.find('span').html(r.message.description).attr('title', r.message.description);
+                        $assign_col.find('span').text(r.message.assigned_to).attr('title', r.message.assigned_to);
+
+                        // La description peut contenir du HTML (Quill). On nettoie pour afficher
+                        var plain = '';
+                        try {
+                            plain = $('<div>').html(r.message.description).text().trim();
+                        } catch (e) {
+                            plain = String(r.message.description || '');
+                        }
+
+                        if (plain.length === 0) {
+                            $desc_col.find('span').text('—').removeAttr('title');
+                        } else {
+                            $desc_col.find('span').text(plain).attr('title', plain);
+                        }
                     } else {
                         $desc_col.find('span').text('—');
                         $date_col.find('span').text('—');
