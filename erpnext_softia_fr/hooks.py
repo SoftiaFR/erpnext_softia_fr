@@ -19,8 +19,22 @@ add_to_apps_screen = [
 
 doctype_js = {
     "Company": "public/js/siret_client.js",
+    "Company": "public/js/company.js",
     "Opportunity": "public/js/opportunity.js",
-    "Account": "public/js/account.js"
+    "Account": "public/js/account.js",
+    "Sales Invoice": "public/js/sales_invoice.js",
+    "Purchase Invoice": "public/js/purchase_invoice.js",
+    "Sales Order": "public/js/sales_order.js",
+    "Address": "public/js/address.js",
+    "Notification": "public/js/notification.js",
+    "Quality Procedure": "public/js/quality_procedure.js",
+    "BOM": "public/js/bom.js",
+    "Currency": "public/js/currency.js",
+    "Journal Entry": "public/js/journal_entry.js",
+    "Payment Entry": "public/js/payment_entry.js",
+    "Holiday List": "public/js/holiday_list.js",
+    "Production Plan": "public/js/production_plan.js",
+    "Timesheet": "public/js/timesheet.js"
 }
 doctype_list_js = {
     "Dashboard": "public/js/dashboard_list.js",
@@ -64,7 +78,12 @@ app_include_js = [
     "/assets/erpnext_softia_fr/js/custom_account_tree.js",
     "/assets/erpnext_softia_fr/js/trial_balance_for_party.js",
     "/assets/erpnext_softia_fr/js/custom_theme_handler.js",
-    "/assets/erpnext_softia_fr/js/custom_logo.js"    
+    "/assets/erpnext_softia_fr/js/custom_logo.js",   
+    "/assets/erpnext_softia_fr/js/brand.js",   
+    "/assets/erpnext_softia_fr/js/task.js",   
+    "/assets/erpnext_softia_fr/js/note.js",   
+    "/assets/erpnext_softia_fr/js/asset_value_adjustment.js",   
+    "/assets/erpnext_softia_fr/js/util.js"
 ]
 
 # include js, css files in header of web template
